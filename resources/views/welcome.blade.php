@@ -91,5 +91,15 @@
                 </div>
             </div>
         </div>
+
+        <div>
+            <h3>To Do</h3>
+            <ul>
+                @foreach($tasks as $task)
+                    <li>{{ $task }}</li>
+                @endforeach
+            </ul>
+        </div>
+            
     </body>
 </html>
